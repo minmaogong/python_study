@@ -30,7 +30,7 @@ print_info3(*tup1)  # 通过*解包
 dict1 = {'a': 10, 'b': 20, 'c': 30}
 print_info3(**dict1)  # 通过**解包
 
-list1 = [100, 200, 300]
+list1 = [100, 200, 300]  
 print_info3(*list1)  # 通过*解包
 
 
