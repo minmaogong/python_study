@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4648e7-adcf-4bac-918b-b75a884ecc09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/Factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/Lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bb4648e7-adcf-4bac-918b-b75a884ecc09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +43,6 @@
     "Python.Return.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/develop/CodeSpace/PythonProject/Demo/python_study",
     "node.js.detected.package.eslint": "true",
@@ -115,6 +110,7 @@
       <workItem from="1768317156517" duration="4493000" />
       <workItem from="1768402560035" duration="3674000" />
       <workItem from="1768489091265" duration="4210000" />
+      <workItem from="1768660757300" duration="524000" />
     </task>
     <servers />
   </component>
