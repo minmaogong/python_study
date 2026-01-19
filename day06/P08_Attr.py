@@ -24,7 +24,7 @@ p2 = Person()
 print(p1.home) # 地球
 print(p2.home) # 地球
 print("~" * 20)
-p1.home = "火星"
+p1.home = "火星" # 这种方式不是修改了类属性，而是添加了一个home的实例属性
 print(p1.home) # 火星
 print(p2.home) # 地球
 print(Person.home) # 地球
