@@ -48,6 +48,7 @@ print(area(10))
 """
 
 # 局部导入 from import * 从包中导入模块
+# from graphic.circle import *
 from graphic import *
 
 print(circle.PI)
