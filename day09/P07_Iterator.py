@@ -59,6 +59,7 @@ for item in list1:
 
 
 # 对一个序列执行反向循环的迭代器
+# 迭代器有两个基本的方法：iter() 和 next()，__iter__和__next__缺一不可
 class ReverseIter:
     """对一个序列执行反向循环的迭代器"""
 
