@@ -44,7 +44,7 @@ class CMS:
         print(f"{'~~~~~~~~~~~~~~~~~~~~~~~~~~~~':^{menu_width}}")
 
     def add_customer(self):
-        customer_id = ""
+        customer_id = self.add_customer_id()
         customer_name = ""
         customer_age = 0
         customer_phone = ""
@@ -61,7 +61,26 @@ class CMS:
 
         print(f"{'添加成功！':^{menu_width}}")
 
+    def add_customer_id(self):
+        for i in range(3):
+            if i < 2:
+                customer_id = input("请输入客户的ID:")
+                if Customer.check_id(customer_id):
+                    break
+                else:
+                    print("客户的ID必须为纯数字")
+            else:
+                customer_id = input("最后一次机会，请输入正确的客户ID:")
+                if Customer.check_id(customer_id):
+                    break
+                else:
+                    print("机会耗尽，放弃添加客户")
+                    return False
 
+        if customer_id in self.customer_id_dict:
+            print("当前客户ID已经存在，放弃添加客户")
+            return False
+        return customer_id
 
 
 
