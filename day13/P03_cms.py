@@ -177,7 +177,7 @@ class CMS:
         else:
             customer = self.customer_id_dict.get(customer_id)
             self.customer_id_dict.pop(customer_id)
-            self.customer_name_dict[customer.name].pop(customer.id)
+            self.customer_name_dict[customer.name].pop(customer_id)
             print("删除成功")
 
 
